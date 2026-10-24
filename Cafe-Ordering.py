@@ -7,7 +7,7 @@ menu ={
 }
 product = input("Hello sir \nWhat Would you like to drink ? We have (Nescafe/Tea/Nesnes/Soda):  ")
 
-product = product.capitalize()
+product = product.strip().capitalize()
 
 price = menu[product]
 
